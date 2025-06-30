@@ -1,0 +1,6 @@
+Date,Problem Name,Source,Difficulty,Notes
+2025-06-15,Print Hello World,Practice,Easy,First Java program using main method
+2025-06-17,Two Sum,LeetCode,Easy,Used HashMap to achieve O(n) time
+2025-06-19,Kadane's Algorithm,GeeksforGeeks,Medium,"Learned how to track max sum of subarray"
+2025-06-21,Reverse a String,Practice,Easy,Practiced StringBuilder and recursion
+2025-06-25,Inheritance Demo,Concepts,Easy,Explored super/this keyword in OOP
