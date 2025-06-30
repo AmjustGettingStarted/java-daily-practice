@@ -1,6 +1,16 @@
 Date,Problem Name,Source,Difficulty,Notes
-2025-06-15,Print Hello World,Practice,Easy,First Java program using main method
-2025-06-17,Two Sum,LeetCode,Easy,Used HashMap to achieve O(n) time
-2025-06-19,Kadane's Algorithm,GeeksforGeeks,Medium,"Learned how to track max sum of subarray"
-2025-06-21,Reverse a String,Practice,Easy,Practiced StringBuilder and recursion
-2025-06-25,Inheritance Demo,Concepts,Easy,Explored super/this keyword in OOP
+2025-06-15,Length of The Array,GeeksforGeeks,Basic,Intro to array length in Java
+2025-06-15,Array Traversal,GeeksforGeeks,Basic,Used standard for-loop to traverse array
+2025-06-16,For-Each Loop,GeeksforGeeks,Basic,Practiced Java enhanced for-loop
+2025-06-16,Array Traversal Reverse,GeeksforGeeks,Easy,Reversed array using backward traversal
+2025-06-17,Decrement Array Values,GeeksforGeeks,Easy,Subtracted one from each array element
+2025-06-18,Check if array is sorted,GeeksforGeeks,Easy,Checked non-decreasing order with a loop
+2025-06-19,Largest Element in Array,GeeksforGeeks,Basic,Found max value using iteration
+2025-06-20,Sum All Array Elements,GeeksforGeeks,Easy,Added all values using for-loop
+2025-06-21,Average,GeeksforGeeks,Easy,Calculated average with sum and length
+2025-06-22,Row Sum in a Matrix,GeeksforGeeks,Easy,Computed row-wise sums in 2D matrix
+2025-06-23,Column Sum in a Matrix,GeeksforGeeks,Easy,Computed column-wise sums in 2D matrix
+2025-06-24,Print Matrix in snake Pattern,GeeksforGeeks,Easy,Printed zig-zag pattern across rows
+2025-06-25,Row with Minimum 1s,GeeksforGeeks,Easy,Counted 1s in each row to find minimum
+2025-06-26,Magic Square,GeeksforGeeks,Medium,Checked row/col/diagonal sums for magic square
+
