@@ -13,4 +13,5 @@ Date,Problem Name,Source,Difficulty,Notes
 2025-06-24,Print Matrix in snake Pattern,GeeksforGeeks,Easy,Printed zig-zag pattern across rows
 2025-06-25,Row with Minimum 1s,GeeksforGeeks,Easy,Counted 1s in each row to find minimum
 2025-06-26,Magic Square,GeeksforGeeks,Medium,Checked row/col/diagonal sums for magic square
+2025-06-30,Encapsulation,GeeksforGeeks,Easy,Program to demonstrate the Encapsulation concept
 
