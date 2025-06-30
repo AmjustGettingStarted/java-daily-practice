@@ -119,3 +119,33 @@ The `public` modifier is the **least restrictive**. It allows members to be acce
 - **Nested Classes**: Access modifiers also apply to **nested (inner) classes** and help control their visibility.
 
 ---
+
+## 🔐 Access Modifier Hierarchy: Security vs Accessibility
+
+**Access Levels (Top = Most Restrictive, Bottom = Least Restrictive)**
+
+- 🔒 **PRIVATE**  
+  Accessible only within the same class  
+  _Most Secure / Most Restrictive_
+
+- 📦 **DEFAULT (no modifier)**  
+  Accessible within the same package
+
+- 🛡️ **PROTECTED**  
+  Accessible within the same package and subclasses in other packages
+
+- 🌍 **PUBLIC**  
+  Accessible from anywhere in the program  
+  _Least Secure / Least Restrictive_
+
+---
+
+**Visualization:**
+
+- `PRIVATE` ↑
+- `DEFAULT` ↑
+- `PROTECTED` ↑
+- `PUBLIC` ↓
+
+**↑** Moving Up: 🔒 **Security Increases / Restriction Increases**  
+**↓** Moving Down: 🔓 **Accessibility Increases / Security Decreases**
