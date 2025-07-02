@@ -15,6 +15,8 @@ Date,Problem Name,Source,Difficulty,Notes
 2025-06-26,Magic Square,GeeksforGeeks,Medium,Checked row/col/diagonal sums for magic square
 2025-06-30,Encapsulation,GeeksforGeeks,Easy,Program to demonstrate the Encapsulation concept
 2025-07-02,Inheritance in Java,GeeksforGeeks,Easy,Used `super()` to initialize base class fields
+2025-07-02,Method Overloading in Java,GeeksforGeeks,Easy,Method overloading with different parameters
+
 
 
 
