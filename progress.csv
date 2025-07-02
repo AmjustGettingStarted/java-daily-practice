@@ -16,6 +16,7 @@ Date,Problem Name,Source,Difficulty,Notes
 2025-06-30,Encapsulation,GeeksforGeeks,Easy,Program to demonstrate the Encapsulation concept
 2025-07-02,Inheritance in Java,GeeksforGeeks,Easy,Used `super()` to initialize base class fields
 2025-07-02,Method Overloading in Java,GeeksforGeeks,Easy,Method overloading with different parameters
+2025-07-02,Abstraction in Java,GeeksforGeeks,Easy,Abstract class with abstract methods
 
 
 
