@@ -1,4 +1,4 @@
-# ⚠️ Exception Handling in Java
+# ⚠️ Exception Handling Keywords
 
 Exception handling is crucial to building robust Java applications that can gracefully handle runtime errors. Below is a guide to the core exception-related keywords:
 
