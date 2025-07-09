@@ -1,1 +1,1 @@
-# Thorw and Throws
+# Throw and Throws
