@@ -40,11 +40,45 @@ Understanding the call stack helps:
 - Optimize recursive methods
 - Grasp how errors and exceptions travel during execution
 
-## 🔄 Exception Propagation
+---
+
+# 🔄 Exception Propagation
 
 When an exception arises, Java searches upward through the call stack for a matching catch block. This process, known as exception propagation, continues until an appropriate handler is found. If none exists, the program terminates with an uncaught exception.
 
-## 🧹 Finally Block
+### 🧯 Exception Propagation: What “Upward” Really Means
+
+When an exception occurs:
+
+- Java **starts from the top of the stack**—the method where the exception was thrown.
+- It **moves down toward older methods**, scanning each for a matching `catch` block.
+- This feels like going **backward through the call chain**, even though it’s **downward through the stack frames**.
+
+> 🔎 In FILO terms: Java traverses from **Last-In to First-In**, looking for an appropriate handler.
+
+---
+
+## 🧠 Quick Analogy: The Plate Stack
+
+Imagine a stack of plates:
+
+1. You stack plate A (first), then B, then C (last).
+2. C cracks—this is your **exception**.
+3. You examine C first (top), then B, then A—**top to bottom**.
+
+Even though you're going **down** the stack physically, you're tracing the chain of events **upward** in terms of **cause and context**.
+
+---
+
+## ✅ Final Note
+
+If **none of the upper frames** handle the exception, Java continues scanning until it reaches the **bottom-most method (0th position)**. If still unhandled, the program terminates with an error.
+
+Understanding this traversal helps decode **stack traces** and strengthens your grasp of **Java’s exception mechanics**.
+
+---
+
+# 🧹 Finally Block
 
 The finally block is designed to execute after the try-catch structure, whether or not an exception was thrown. It's typically used for cleanup operations—like closing files, releasing resources, or logging—ensuring consistent program behavior.
 
