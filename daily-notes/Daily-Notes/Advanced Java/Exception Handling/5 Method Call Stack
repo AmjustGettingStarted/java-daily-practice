@@ -1,0 +1,13 @@
+## 📌 Method Call Stack
+
+The method call stack tracks the sequence of method invocations during program execution. Each time a method is called, a new stack frame is added to store its parameters and local variables. As methods complete, their frames are removed from the stack.![alt text](image-1.png)
+
+## 🔄 Exception Propagation
+
+When an exception arises, Java searches upward through the call stack for a matching catch block. This process, known as exception propagation, continues until an appropriate handler is found. If none exists, the program terminates with an uncaught exception.
+
+## 🧹 Finally Block
+
+The finally block is designed to execute after the try-catch structure, whether or not an exception was thrown. It's typically used for cleanup operations—like closing files, releasing resources, or logging—ensuring consistent program behavior.
+
+Understanding these components helps developers build robust and maintainable applications.

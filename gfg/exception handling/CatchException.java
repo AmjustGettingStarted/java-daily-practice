@@ -1,7 +1,7 @@
 class CatchException {
     public static void main(String[] args) {
         try {
-            int res = divide(10, 2);
+            int res = divide(10, 0);
             System.out.println("Quotient: " + res);
         } catch (Exception e) {
             System.out.println("Exception is caught");
