@@ -2,35 +2,37 @@
 
 ## ✅ Topics Covered
 
-Today’s session deepened my understanding of **exception handling mechanisms in Java**, with a sharp focus on controlling runtime anomalies and structuring predictable error recovery.
+Today's session strengthened my grasp of **Java's exception handling mechanisms**, focusing on managing runtime anomalies, layering multiple failure responses, and designing resilient custom error structures.
 
 ---
 
 ### 📘 Articles Studied
 
 - **Exception Handling using Try-Catch**  
-  Explored how try-catch blocks isolate risky code and allow graceful recovery through targeted exception handling.
+  Explored how `try-catch` blocks isolate risky code and enable graceful recovery through targeted exception handling.
 
 - **Method Call Stack and Exceptions**  
-  Studied how the stack stores method calls and how exception propagation moves through it using FILO logic.
+  Studied how the call stack manages method invocations and how exceptions propagate using FILO (First-In, Last-Out) logic.
 
-- **Exception Handling using Throw and Throws**  
-  Learned how to explicitly throw exceptions with `throw` and declare exception expectations using `throws`.
+- **Exception Handling using `throw` and `throws`**  
+  Clarified how to explicitly raise exceptions with `throw` and declare method-level exception possibilities with `throws`.
 
 - **Multiple Exceptions**  
-  Learned how to  throw multiple  exceptions in `same class` and how to use `multiple Catch Blocks` in the same class.
-  
-- **User Defined Exceptions**  
-  Learned how to  create a `User defined exception`
+  Learned how to throw multiple exceptions within a class and organize **multiple `catch` blocks** with proper hierarchy and compiler-safe ordering.
 
-
+- **User-Defined Exceptions**  
+  Learned how to create and utilize custom exception classes to represent domain-specific error conditions, both checked and unchecked.
 
 ---
 
 ## ✨ Highlights & Insights
 
-- Strengthened understanding of **structured error handling** using `try`, `catch`, and `finally` for flow resilience.
-- Visualized **exception propagation** as a top-down journey through the **call stack**, tracing the origin and escalation of errors.
-- Clarified usage of `throw` vs `throws`—knowing when to launch an exception and when to declare potential ones.
+- Deepened my understanding of **structured error handling** using `try`, `catch`, and `finally`, ensuring predictable execution and cleanup.
+- Mapped exception flow across the **call stack**, grasping how Java escalates errors method by method.
+- Solidified the distinction between `throw` (raising exceptions) and `throws` (declaring exceptions) to control failure handling elegantly.
+- Understood the **importance of exception hierarchy** when dealing with multiple `catch` blocks—specific exceptions must be caught before general ones to avoid unreachable code.
+- Learned how to **design custom exceptions** to create meaningful, application-specific feedback, making code both robust and semantically expressive.
 
-> _Today’s wins: control over chaos. Java’s exception system makes runtime errors less of a disruption and more of a dialogue between methods 💬_
+> _Today’s wins: taming runtime chaos. Java’s exception system turns errors into structured conversations between methods 💬_
+
+---
