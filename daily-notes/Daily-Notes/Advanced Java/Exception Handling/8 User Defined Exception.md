@@ -67,3 +67,48 @@ public class CheckedAgeValidator {
 
 ---
 
+## ⚡ Approach 2: Unchecked Exception
+
+### ✅ Step-by-Step
+
+1. **Extend `RuntimeException`**
+2. **Throw directly** from anywhere
+3. **No need for `throws` or mandatory catching**
+
+```java
+// Step 1: Custom unchecked exception
+class AgeNotEligibleRuntimeException extends RuntimeException {
+    public AgeNotEligibleRuntimeException(String message) {
+        super(message);
+    }
+}
+
+// Step 2–3: Use it in a class
+public class UncheckedAgeValidator {
+
+    public static void main(String[] args) {
+        validateAge(16); // Try setting this to 18+
+        System.out.println("Validation complete.");
+    }
+
+    public static void validateAge(int age) {
+        if (age < 18) {
+            throw new AgeNotEligibleRuntimeException("Must be at least 18 to register.");
+        }
+    }
+}
+```
+
+### 🧾 Notes
+
+- Ideal for cases where you don’t expect calling methods to recover or handle it.
+- Cleaner and shorter, but be cautious: unchecked exceptions can be forgotten unless documented well.
+
+---
+
+## ✅ Which One to Use?
+
+- Use **checked exceptions** when the caller is expected to handle the scenario (e.g., validating age before submitting a form).
+- Use **unchecked exceptions** for programming errors or conditions you don’t expect to recover from (e.g., internal logic violations).
+
+---
