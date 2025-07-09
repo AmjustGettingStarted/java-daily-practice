@@ -17,6 +17,13 @@ Today’s session deepened my understanding of **exception handling mechanisms i
 - **Exception Handling using Throw and Throws**  
   Learned how to explicitly throw exceptions with `throw` and declare exception expectations using `throws`.
 
+- **Multiple Exceptions **  
+  Learned how to  throw multiple  exceptions in `same class` and how to use `multiple Catch Blocks` in the same class.
+
+
+
+
+
 ---
 
 ## ✨ Highlights & Insights
