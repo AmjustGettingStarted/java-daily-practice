@@ -70,3 +70,34 @@ Sure! Here’s a clean, note-style breakdown of the content you shared:
    - Rendering, input, and AI handled by separate threads.
 
 ---
+
+## ✅ Advantages of Multithreading
+
+1. **Parallelism & Performance**:
+
+   - Utilizes CPU cores effectively.
+
+2. **Responsiveness**:
+
+   - UI remains smooth during heavy tasks.
+
+3. **Better Resource Utilization**:
+   - Shared memory reduces overhead compared to multiple processes.
+
+---
+
+## ⚠️ Disadvantages of Multithreading
+
+1. **Complexity**:
+
+   - Harder to write, test, and debug.
+   - Requires careful synchronization.
+
+2. **Deadlocks**:
+
+   - Threads wait on each other indefinitely.
+
+3. **Race Conditions**:
+   - Output depends on unpredictable execution order.
+
+---
