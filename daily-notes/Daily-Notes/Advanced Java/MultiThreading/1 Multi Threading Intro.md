@@ -51,3 +51,22 @@ Sure! Here’s a clean, note-style breakdown of the content you shared:
     - Downloading a file while browsing other web pages.
 
 ---
+
+## 🌍 Real-World Examples of Multithreading
+
+1. **Word Processors**:
+
+   - Typing, saving, formatting, spell-checking use different threads.
+
+2. **Web Servers** (e.g., Apache):
+
+   - Thread pool handles multiple requests simultaneously.
+
+3. **IDEs** (e.g., IntelliJ IDEA, Eclipse):
+
+   - Real-time code analysis while typing.
+
+4. **Games**:
+   - Rendering, input, and AI handled by separate threads.
+
+---
