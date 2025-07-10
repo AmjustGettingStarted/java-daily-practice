@@ -58,3 +58,33 @@ class FileInfo {
 
 ---
 
+## 🧠 My Simple All-in-One Program: Create + Write + Read
+
+```java
+import java.io.*;
+
+public class SimpleFileHandler {
+    public static void main(String[] args) {
+        String path = "demo.txt";
+
+        // Step 1: Create and write
+        try (FileWriter fw = new FileWriter(path)) {
+            fw.write("Hey Harshith! This file was made for you 😊");
+            System.out.println("✅ File written.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Step 2: Read and display
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+            System.out.println("📄 Reading contents:");
+            String line;
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
