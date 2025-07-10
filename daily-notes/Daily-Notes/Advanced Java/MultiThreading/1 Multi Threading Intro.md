@@ -27,3 +27,27 @@ A **thread** in Java represents a **lightweight unit of execution**. It's a way 
 | Goal       | One task at a time         | Multiple tasks at once                    |
 
 ---
+
+Sure! Here’s a clean, note-style breakdown of the content you shared:
+
+---
+
+## 🧠 Multitasking vs Multithreading
+
+- **Multitasking**:
+
+  - Executes multiple processes/tasks at once.
+  - Each task may run independently in its own memory space.
+  - Examples:
+    - Listening to music while browsing.
+    - Running multiple applications (browser, editor, media player).
+
+- **Multithreading**:
+  - A subset of multitasking.
+  - A single process divided into multiple threads that run concurrently.
+  - Threads **share memory** and resources.
+  - More efficient than multitasking.
+  - Example:
+    - Downloading a file while browsing other web pages.
+
+---
