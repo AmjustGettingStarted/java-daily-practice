@@ -31,3 +31,30 @@ class CreateFile {
 
 ---
 
+## 🔍 2. Getting File Information
+
+```java
+import java.io.File;
+
+class FileInfo {
+    public static void main(String[] args) {
+        File obj = new File("D:\\File.txt");
+        if (obj.exists()) {
+            System.out.println("File Name: " + obj.getName());
+            System.out.println("Absolute Path: " + obj.getAbsolutePath());
+            System.out.println("Writable: " + obj.canWrite());
+            System.out.println("Readable: " + obj.canRead());
+            System.out.println("File Size: " + obj.length() + " bytes");
+        } else {
+            System.out.println("File does not exist.");
+        }
+    }
+}
+```
+
+### ✅ Explanation:
+- Verifies existence with `exists()`.
+- Gathers metadata like name, path, permissions, and file size using relevant methods.
+
+---
+
