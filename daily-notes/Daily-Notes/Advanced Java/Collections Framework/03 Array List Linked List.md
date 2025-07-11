@@ -43,3 +43,46 @@ public class ArrayListExample {
 ```
 
 ---
+
+## 🔗 LinkedList
+
+### 🧠 Key Concepts
+- **Package:** `java.util`
+- **Introduced in:** JDK 1.2
+- **Node Structure:** Each node stores the object, previous node’s address, and next node’s address
+- **No Initial/Incremental Capacity**
+- **Internal Data Structure:** Doubly Linked List
+
+### 🤝 Interfaces Implemented
+| Interface      | Purpose                                  |
+|----------------|-------------------------------------------|
+| List           | Maintains insertion order                 |
+| Deque          | Supports operations at both ends          |
+| Cloneable      | Enables cloning                           |
+| Serializable   | Enables serialization                     |
+
+### 🏗️ Constructors
+- `LinkedList()`
+- `LinkedList(Collection c)`
+
+### 💻 Sample Program
+```java
+import java.util.LinkedList;
+
+public class LinkedListExample {
+    public static void main(String[] args) {
+        LinkedList<String> colors = new LinkedList<>();
+        colors.add("Red");
+        colors.add("Green");
+        colors.add("Blue");
+
+        System.out.println("LinkedList Contents:");
+        for (String color : colors) {
+            System.out.println(color);
+        }
+    }
+}
+```
+
+---
+
