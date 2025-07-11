@@ -97,7 +97,20 @@ public class LinkedListExample {
 | **Initial Capacity**      | 10 (default)                      | Not applicable                         |
 | **Interfaces Added**      | RandomAccess                      | Deque                                  |
 
----Absolutely, Harshith! Here’s your refined conclusion with a clean structure and a touch of clarity:
+
+
+---
+
+## 🎯 **Conclusion**
+
+Choosing between **ArrayList** and **LinkedList** depends entirely on your use case:
+
+| Operation Type                  | Recommended Collection | Reason                                      |
+|--------------------------------|-------------------------|---------------------------------------------|
+| **Inserting & Deleting in between**<br>(Manipulation Involved) | 🔗 **LinkedList**         | Faster manipulation due to node structure   |
+| **Storing & Retrieving objects**<br>(No Manipulation Involved)   | 📦 **ArrayList**          | Quicker access with index-based retrieval   |
+
+>In essence, if your application involves **frequent changes to the list’s contents** especially in the middle go with `LinkedList`. If you need **fast access and fewer changes**, `ArrayList` is your best bet.
 
 ---
 
