@@ -20,3 +20,15 @@ Each provides different internal behavior for storage, efficiency, and concurren
 
 ---
 
+### 🔁 **Generalization / Upcasting Example**
+
+Using polymorphism to reference different implementations via the `List` interface:
+```java
+List l = new ArrayList();
+List l = new Vector();
+List l = new Stack();
+List l = new LinkedList();
+```
+
+---
+
