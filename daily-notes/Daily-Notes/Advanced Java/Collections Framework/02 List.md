@@ -8,3 +8,15 @@
 - Represents an **ordered collection** that allows **duplicate elements**.
 
 ---
+
+### 🏗️ **Implementations of `List`**
+The most commonly used classes that implement `List`:
+1. `ArrayList`
+2. `Vector`
+3. `Stack`
+4. `LinkedList`
+
+Each provides different internal behavior for storage, efficiency, and concurrency.
+
+---
+
