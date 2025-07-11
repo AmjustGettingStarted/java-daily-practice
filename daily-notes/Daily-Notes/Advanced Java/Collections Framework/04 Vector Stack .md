@@ -60,3 +60,27 @@ public class VectorExample {
   - `pop` → Removes the top object
 - **Underlying Data Structure:** Vector
 
+### 💻 Sample Program
+```java
+import java.util.Stack;
+
+public class StackExample {
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+        
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        
+        System.out.println("Stack Elements:");
+        while (!stack.isEmpty()) {
+            System.out.println(stack.pop()); // LIFO order
+        }
+    }
+}
+```
+
+
+
+>These two classes—`Vector` and `Stack`—carry legacy charm but still have practical uses in multi-threaded and specific structural contexts. 
+---
