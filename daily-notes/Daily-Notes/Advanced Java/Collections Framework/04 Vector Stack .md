@@ -46,3 +46,17 @@ public class VectorExample {
 }
 ```
 
+---
+
+## 🧱 **Stack**
+
+### 🧠 Key Concepts
+- **Package:** `java.util`
+- **Introduced in:** JDK 1.0
+- **Type:** Legacy Collection Class
+- **Traversal Order:** LIFO (Last In First Out)
+- **Operations:**
+  - `push` → Adds an object to the top
+  - `pop` → Removes the top object
+- **Underlying Data Structure:** Vector
+
