@@ -11,3 +11,11 @@
 - **Incremental Capacity:** `CurrentCapacity * 2`
 - **Internal Data Structure:** Resizable / Growable Array
 
+### 🤝 Interfaces Implemented
+| Interface      | Purpose                                    |
+|----------------|---------------------------------------------|
+| List           | Ordered collection                         |
+| RandomAccess   | Enables fast indexed access                |
+| Cloneable      | Supports cloning of elements               |
+| Serializable   | Allows serialization of objects            |
+
