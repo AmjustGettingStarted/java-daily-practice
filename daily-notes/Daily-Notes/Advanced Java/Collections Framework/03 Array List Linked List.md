@@ -86,3 +86,18 @@ public class LinkedListExample {
 
 ---
 
+## ⚔️ Difference Between ArrayList & LinkedList
+
+| Feature                    | ArrayList                         | LinkedList                            |
+|---------------------------|-----------------------------------|----------------------------------------|
+| **Structure**             | Resizable Array                   | Doubly Linked List                     |
+| **Access Time**           | Fast (via index)                  | Slow (traverse nodes)                  |
+| **Insertion/Deletion**    | Slower (shifting elements)        | Faster (node manipulation)             |
+| **Memory Overhead**       | Less                              | More (extra node links)                |
+| **Initial Capacity**      | 10 (default)                      | Not applicable                         |
+| **Interfaces Added**      | RandomAccess                      | Deque                                  |
+
+---Absolutely, Harshith! Here’s your refined conclusion with a clean structure and a touch of clarity:
+
+---
+
