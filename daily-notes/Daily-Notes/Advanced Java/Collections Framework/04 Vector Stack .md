@@ -19,3 +19,30 @@
 | Cloneable      | Supports cloning of elements               |
 | Serializable   | Allows serialization of objects            |
 
+### 🏗️ Constructors
+- `Vector()`
+- `Vector(int initialCapacity)`
+- `Vector(int initialCapacity, int incrementalCapacity)`
+- `Vector(Collection c)`
+
+### 💻 Sample Program
+```java
+import java.util.Vector;
+
+public class VectorExample {
+    public static void main(String[] args) {
+        Vector<String> languages = new Vector<>();
+        languages.add("Java");
+        languages.add("Python");
+        languages.add("C++");
+
+        System.out.println("Vector Elements:");
+        for (String lang : languages) {
+            System.out.println(lang);
+        }
+
+        System.out.println("Capacity: " + languages.capacity());
+    }
+}
+```
+
