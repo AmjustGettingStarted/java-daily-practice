@@ -10,6 +10,10 @@
 - Introduced from **JDK 1.2**
 - Collection is used to store a **group of objects**.
 ---
+# Collection Framework Hierarchy
+![Collection Framework Hierarchy](image.png)
+
+---
 
 # Array vs Collection 
 
