@@ -32,3 +32,11 @@ List l = new LinkedList();
 
 ---
 
+### 📋 **Key Specifications of `List` Interface**
+- ✅ Maintains **insertion order**
+- ✅ Allows **duplicate elements**
+- ✅ **Index-based access** (starts from `0`)
+- ✅ Permits **null values**
+
+---
+
