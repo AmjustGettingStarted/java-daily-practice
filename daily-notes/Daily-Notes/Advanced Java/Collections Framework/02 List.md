@@ -40,3 +40,14 @@ List l = new LinkedList();
 
 ---
 
+### 🧰 **Important Methods in `List` Interface**
+
+| 🛠️ **Method**             | 🧾 **Purpose**                                                                 |
+|---------------------------|--------------------------------------------------------------------------------|
+| `get(index)`              | Retrieves the element at the specified index.                                 |
+| `indexOf(object)`         | Returns the index of the **first occurrence** of an object.                   |
+| `lastIndexOf(object)`     | Returns the index of the **last occurrence** of an object.                    |
+| `add(index, value)`       | Inserts an object at specified index, shifts the existing one (if any).       |
+| `set(index, value)`       | Overwrites the object at a specified index with a new one.                    |
+
+---
