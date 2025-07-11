@@ -26,4 +26,5 @@
 | **Type Flexibility (Generics)** | Supports generics but not enforced explicitly.                              | Designed to work seamlessly with generics for type safety.                      |
 | **Underlying Data Structure** | Array — contiguous memory block.                                            | Various: arrays, linked lists, trees, hash tables, heaps — depending on the implementation. |
 
-Collections are like Java’s power tools 🛠️ — Arrays are great, but Collections give you automation, speed settings, and precision control.
+>Collections are like Java’s power tools 🛠️ — Arrays are great, but Collections give you automation, speed settings, and precision control.
+---
