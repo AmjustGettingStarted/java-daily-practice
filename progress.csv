@@ -18,7 +18,7 @@ Date,Problem Name,Source,Difficulty,Notes
 2025-07-02,Method Overloading in Java,GeeksforGeeks,Easy,Method overloading with different parameters
 2025-07-02,Abstraction in Java,GeeksforGeeks,Easy,Abstract class with abstract methods
 2025-09-08,Move Zeroes,LeetCode,Easy,LeetCode 283: Move all 0's to the end of the array
-
+2025-09-08,Majority Element,LeetCode,Easy,LeetCode 169: Find the element in an array that appears more than ⌊n/2⌋ times
 
 
 
