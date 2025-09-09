@@ -20,7 +20,7 @@ Date,Problem Name,Source,Difficulty,Notes
 2025-09-08,Move Zeroes,LeetCode,Easy,LeetCode 283: Move all 0's to the end of the array
 2025-09-08,Majority Element,LeetCode,Easy,LeetCode 169: Find the element in an array that appears more than ⌊n/2⌋ times
 2025-09-09,Product of Array Except Self,LeetCode,Medium,LeetCode 238: Return an array such that each element at index i is the product of all elements except nums[i]
-
+2025-09-09,41. First Missing Positive,LeetCode,Hard,LeetCode 41: Find the smallest missing positive integer in an unsorted integer array
 
 
 
